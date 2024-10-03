@@ -12,11 +12,12 @@ export function Aplication(){
 
             <ContentCharacters>
                 <div>
-                    <CardCharacter/>
-                    <CardCharacter/>
-                    <CardCharacter/>
-                    <CardCharacter/>
-                    <CardCharacter/>
+                    <CardCharacter
+                        image='https://rickandmortyapi.com/api/character/avatar/322.jpeg'
+                        name='Rick Sanchez'
+                        gender='Male'
+                        specie='Human'
+                    />
                 </div>
                 <button>Carregar Mais</button>
             </ContentCharacters>

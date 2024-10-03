@@ -30,4 +30,22 @@ export const ContentCharacters = styled.div`
         grid-template-columns: repeat(4, 1fr);
         gap: 1.6rem;
     }
+
+    button{
+        display: block;
+        line-height: 6.5rem;
+        background-color: #5b1fa6;
+        border-radius: 6px;
+        width: 30rem;
+        margin: 0 auto;
+        cursor: pointer;
+        border: none;
+        font-size: 1.8rem;
+        margin-top: 4.8rem;
+        transition: filter .3s;
+
+        &:hover{
+            filter: brightness(0.8);
+        }
+    }
 `
