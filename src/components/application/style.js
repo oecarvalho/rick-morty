@@ -23,3 +23,11 @@ export const HeaderApp = styled.div`
         opacity: 0.6;
     }
 `
+
+export const ContentCharacters = styled.div`
+    & > div{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1.6rem;
+    }
+`
